@@ -18,8 +18,8 @@ app.use(cors())
   
 
 //connecting Mongoose
-mongoose.connect('mongodb+srv://hariramalingam333_db_user:WAEoArwa78hkxrZ0@merntodo.yjcgo2r.mongodb.net/?appName=mernTodo')
-// mongoose.connect(process.env.MONGO_URI)
+// mongoose.connect('mongodb+srv://hari:hari123@cluster0.r4uyefo.mongodb.net/')
+mongoose.connect(process.env.MONGO_URI)
 .then(()=>{
     console.log("DB connected!!!")
 })
